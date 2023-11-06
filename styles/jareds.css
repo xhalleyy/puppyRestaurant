@@ -1,0 +1,27 @@
+.bodybg {
+    background-image: url(/assets/images/bgtexture.jpg);
+}
+.ft {
+    font-size: 50px;
+}
+.brown {
+    color: #5F002B;
+}
+.whitebg {
+    background-color: white;
+}
+.cater-text {
+    font-family: montauk-light;
+}
+.cater-title {
+    font-size: 50px;
+}
+.cater-text {
+    font-size: 20px;
+    line-height: 20px;
+}
+.cater-padding {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 65px;
+}
