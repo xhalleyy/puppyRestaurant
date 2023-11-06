@@ -12,7 +12,8 @@ body {
     src: url(../assets/fonts/Montauk-Light.otf);
 }
 
-.nav-link {
+.nav-link,
+footer {
     font-size: 20px;
 }
 
@@ -21,20 +22,35 @@ body {
 }
 
 .nav-link,
-.about-title {
+.about-title,
+.team-title,
+.abtcard-title {
     font-family: fugaz-one;
 }
 
 .nav-link,
 .about-title,
-.about-text {
+.about-text,
+.team-title,
+.abtcard-title,
+.team-text,
+footer {
  color: #5F002B;   
 }
 
-.about-text {
+.about-text,
+.team-text,
+footer {
     font-family: montauk-light;
 }
 
+/* Footer style */
+.footer-right{
+    text-align: end;
+}
+
+
+/* About Styles */
 .about-title {
     font-size: 50px;
 }
@@ -43,13 +59,37 @@ body {
     background-color: #FFFFFF;
 }
 
-.about-text {
+.about-text,
+.team-text {
     font-size: 20px;
     line-height: 20px;
 }
 
 .about-padding {
     padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 65px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.team-title,
+.abtcard-title {
+    font-size: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: initial;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px ;
+}
+
+.team-margin {
+    margin-bottom: 100px;
 }
