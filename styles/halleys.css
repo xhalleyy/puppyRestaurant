@@ -1,0 +1,55 @@
+body {
+    background-image: url(../assets/images/bgtexture.jpg);
+}
+
+@font-face {
+    font-family: fugaz-one;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: montauk-light;
+    src: url(../assets/fonts/Montauk-Light.otf);
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link,
+.about-title {
+    font-family: fugaz-one;
+}
+
+.nav-link,
+.about-title,
+.about-text {
+ color: #5F002B;   
+}
+
+.about-text {
+    font-family: montauk-light;
+}
+
+.about-title {
+    font-size: 50px;
+}
+
+.whiteBG {
+    background-color: #FFFFFF;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.about-padding {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 65px;
+}
