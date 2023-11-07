@@ -31,7 +31,9 @@ footer {
 .about-title-res,
 .team-title,
 .abtcard-title,
-.offcanvas-title {
+.offcanvas-title,
+.menu-title,
+.menu-type {
     font-family: fugaz-one;
 }
 
@@ -43,12 +45,18 @@ footer {
 .abtcard-title,
 .team-text,
 .offcanvas-title,
+.menu-title,
+.menu-type,
+.menu-caption,
+.menu-item,
 footer {
  color: #5F002B;   
 }
 
 .about-text,
 .team-text,
+.menu-caption,
+.menu-item,
 footer {
     font-family: montauk-light;
 }
@@ -73,7 +81,8 @@ footer {
 }
 
 /* About Styles */
-.about-title {
+.about-title,
+.menu-title {
     font-size: 50px;
 }
 
@@ -102,7 +111,8 @@ footer {
 }
 
 .team-title,
-.abtcard-title {
+.abtcard-title,
+.menu-type {
     font-size: 30px;
 }
 
@@ -118,4 +128,48 @@ footer {
 
 .team-margin {
     margin-bottom: 100px;
+}
+
+/* Menu Styles */
+
+.menu-caption,
+.menu-item {
+    font-size: 20px
+}
+
+.menu-item {
+    line-height: 25px;
+}
+
+.menu-item-title {
+    font-size: 35px;
+}
+
+hr {
+    color: #980051;
+    height: 2px;
+    font-weight: bolder;
+}
+
+.card-menu-padding {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.menu-item-padding {
+    padding-bottom: 110px;
+}
+
+.text-right {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+
+.notxtwrap {
+    white-space: nowrap;
+}
+
+.menu-card-margin {
+    margin-bottom: 50px;
 }
