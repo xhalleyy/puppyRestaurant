@@ -12,7 +12,13 @@ body {
     src: url(../assets/fonts/Montauk-Light.otf);
 }
 
-.nav-link {
+/* Nav-bar and footer */
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.nav-link,
+footer {
     font-size: 20px;
 }
 
@@ -21,35 +27,95 @@ body {
 }
 
 .nav-link,
-.about-title {
+.about-title,
+.about-title-res,
+.team-title,
+.abtcard-title,
+.offcanvas-title {
     font-family: fugaz-one;
 }
 
 .nav-link,
 .about-title,
-.about-text {
+.about-title-res,
+.about-text,
+.team-title,
+.abtcard-title,
+.team-text,
+.offcanvas-title,
+footer {
  color: #5F002B;   
 }
 
-.about-text {
+.about-text,
+.team-text,
+footer {
     font-family: montauk-light;
 }
 
+/* Footer style */
+.footer-right{
+    text-align: end;
+}
+
+/* Off-Canvas */
+.offcanvas-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2895, 0, 43, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 1px solid #5F002B;
+}
+
+/* About Styles */
 .about-title {
     font-size: 50px;
+}
+
+.about-title-res {
+    font-size: 40px;
 }
 
 .whiteBG {
     background-color: #FFFFFF;
 }
 
-.about-text {
+.about-text,
+.team-text {
     font-size: 20px;
     line-height: 20px;
 }
 
 .about-padding {
     padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 65px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.team-title,
+.abtcard-title {
+    font-size: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: initial;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px ;
+}
+
+.team-margin {
+    margin-bottom: 100px;
 }
