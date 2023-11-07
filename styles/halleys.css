@@ -147,8 +147,7 @@ footer {
 
 hr {
     color: #980051;
-    height: 2px;
-    font-weight: bolder;
+    border-top: 3px solid #980051;
 }
 
 .card-menu-padding {
