@@ -14,35 +14,77 @@
 </head>
 
 <body class="bodybg">
-
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col ms-3">
-                <a class="navbar-brand" href="#">
-                    <img src="../assets/images/MuzzlesLogo.png" alt="Muzzles, Logo and Name of Puppy Restaurant"
-                        width="250px" height="92px">
-                </a>
+    <!--Start of nav bar-->
+    <nav class="navbar-expand-lg bg-body-tertiary d-none d-lg-block">
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col ms-3">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/images/MuzzlesLogo.png" alt="Muzzles, Logo and Name of Puppy Restaurant"
+                            width="250px" height="92px">
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-end align-items-center px-0">
+                    <ul class="nav nav-align">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="./menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="./catering.html">Catering</a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link pe-0" href="./photos.html">Photo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1 px-0"></div>
             </div>
-            <div class="col d-flex justify-content-end align-items-center px-0">
-                <ul class="nav nav-align">
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="./menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="./catering.html">Catering</a>
-                    </li>
-                    <li class="nav-item ps-3">
-                        <a class="nav-link pe-0" href="./photos.html">Photo</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-1 px-0"></div>
         </div>
-    </div>
+    </nav>
+    <!-- Navbar responsiveness for md/sm -->
+    <nav class="navbar bg-body-tertiary sticky-top d-sm-block d-md-block d-lg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/MuzzlesLogo.png" alt="Muzzles, Logo and Name of Puppy Restaurant"
+                    width="200px" height="73px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Muzzles Puppy Restaurant</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--End of navbar-->
 
     <div class="container-fluid">
         <div class="row">
@@ -58,23 +100,29 @@
     <br>
     <br>
 
+    <!--Hero Image-->
     <div class="row">
         <div class="col-1 px-0 mx-0"></div>
         <div class="col-10">
-            <img src="../assets/images/cateringHero.jpg" class="align-self-center img-fluid" alt="hampster on seeds">
+            <img src="../assets/images/cateringHero.jpg" class="align-self-center img-fluid"
+                alt="A catering table with many plates of food.">
         </div>
         <div class="col-1 px-0 mx-0"></div>
     </div>
+    <!--End of Hero Image-->
 
     <br>
     <br>
     <br>
 
-    <div class="container-fluid">
+    <!--Start of Catering Services desktop-->
+
+    <div class="container-fluid d-none d-xl-block">
         <div class="row px-0 mx-0">
             <div class="col-1 mx-0 px-0"></div>
             <div class="col-4 me-1 px-0">
-                <img src="../assets/images/cateringMaine.jpg" class="img-fluid" alt="Multiple plates of food on a table">
+                <img src="../assets/images/cateringMaine.jpg" class="img-fluid"
+                    alt="Multiple plates of food on a table">
             </div>
             <div class="col-6 whitebg caterpad ms-2 brown">
                 <h1 class="catertitle mb-2 mt-3">Our Catering Services</h1>
@@ -102,11 +150,53 @@
         </div>
     </div>
 
+    <!--End of catering services desktop-->
+
+    <!--Start of catering services responsive-->
+    <div class="d-sm-block d-xl-none">
+        <div class="row">
+            <div class="col-1 px-0 mx-0"></div>
+            <div class="col-10 d-flex justify-content-center">
+                <img src="../assets/images/cateringMaine.jpg" class="align-self-center img-fluid"
+                    alt="Multiple plates of food on a table">
+            </div>
+            <div class="col-1 px-0 mx-0"></div>
+        </div>
+        <div class="row px-0 mx-0">
+            <div class="col-1 mx-0 px-0"></div>
+            <div class="col-10 whitebg caterpad brown">
+                <h1 class="catertitle mb-2 mt-3">Our Catering Services</h1>
+                <p class="catertext mb-5 brown">
+                    Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed
+                    faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet.
+                    Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed.
+                    Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu
+                    felis. Consectetur lorem donec massa sapien faucibus et molestie ac. Cum sociis natoque penatibus et
+                    magnis dis parturient. Ut faucibus pulvinar elementum integer enim. Vel risus commodo viverra
+                    maecenas accumsan. Nec dui nunc mattis enim ut.
+                    <br>
+                    <br>
+                    Posuere lorem ipsum dolor sit amet. Sed odio morbi
+                    quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum
+                    sagittis vitae et leo duis ut. Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo
+                    ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in
+                    fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus.
+                    Tristique senectus et netus et. Dolor sit amet consectetur adipiscing elit ut aliquam. Erat nam at
+                    lectus urna duis convallis convallis tellus. Egestas purus viverra accumsan in nisl nisi scelerisque
+                    eu ultrices.
+                </p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!--End of catering services responsive-->
+
     <br>
     <br>
     <br>
 
-    <div class="container-fluid">
+    <!--Start of Catering images-->
+    <div class="container-fluid d-none d-lg-block">
         <div class="row">
             <div class="col-1 px-0 mx-0"></div>
             <div class="col px-0">
@@ -121,27 +211,47 @@
             <div class="col-1 px-0 mx-0"></div>
         </div>
     </div>
+    <!--End of Catering services-->
 
+    <!--Start of Catering images responsive-->
+    <div class="container-fluid d-sm-block d-lg-none">
+        <div class="row">
+            <div class="col pb-3 d-flex justify-content-center">
+                <img src="../assets/images/catering1.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col pb-3 d-flex justify-content-center">
+                <img src="../assets/images/catering2.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <img src="../assets/images/catering3.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!--End of Catering services responsive-->
+
+    <!--Start of footer-->
     <footer>
         <div class="container-fluid d-flex px-0 my-3">
-          <div class="col-1"></div>
-          <div class="col d-flex align-items-center">
-            <p>1357 Mutt Street, Rottweiler CA. 12345
-              <br> Phone: 123-456-7890
-            </p>
-          </div>
-          <div class="col d-flex justify-content-end align-items-center">
-            <p class="footer-right">
-              <img src="../assets/images/CompanyLogo.png" alt="Company Logo" width="100px" height="32px">
-              <br>Copyright © Muzzles Restaurant
-            </p>
-          </div>
-          <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col d-flex align-items-center">
+                <p>1357 Mutt Street, Rottweiler CA. 12345
+                    <br> Phone: 123-456-7890
+                </p>
+            </div>
+            <div class="col d-flex justify-content-end align-items-center">
+                <p class="footer-right">
+                    <img src="../assets/images/CompanyLogo.png" alt="Company Logo" width="100px" height="32px">
+                    <br>Copyright © Muzzles Restaurant
+                </p>
+            </div>
+            <div class="col-1"></div>
         </div>
-      </footer>
-
-
-
+    </footer>
+    <!--End of Footer-->
 
 
 
