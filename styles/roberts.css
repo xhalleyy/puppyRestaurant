@@ -4,3 +4,13 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.heroimg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+}
+h5{
+    
+}
