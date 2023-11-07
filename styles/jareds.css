@@ -10,17 +10,17 @@
 .whitebg {
     background-color: white;
 }
-.cater-text {
+.catertext {
     font-family: montauk-light;
 }
-.cater-title {
+.catertitle {
     font-size: 50px;
 }
-.cater-text {
+.catertext {
     font-size: 20px;
     line-height: 20px;
 }
-.cater-padding {
+.caterpad {
     padding-top: 30px;
     padding-left: 40px;
     padding-right: 65px;
