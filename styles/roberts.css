@@ -11,6 +11,12 @@ body{
     position: relative;
     height: 50%;
 }
-h5{
-    
+@font-face {
+    font-family: fugaz-one;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: montauk-light;
+    src: url(../assets/fonts/Montauk-Light.otf);
 }
