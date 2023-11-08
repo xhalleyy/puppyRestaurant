@@ -80,6 +80,12 @@ footer {
     border: 1px solid #5F002B;
 }
 
+/* TRANSPARENT TO SOLID OFFCANVAS NAVBAR */
+.navbar-scrolled {
+    background-color: #F2E9D9 !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
 /* About Styles */
 .about-title,
 .menu-title {
@@ -97,13 +103,14 @@ footer {
 .about-text,
 .team-text {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 19px;
 }
 
 .about-padding {
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 80px;
+    padding-bottom: 40px;
 }
 
 .text-center {
@@ -128,6 +135,16 @@ footer {
 
 .team-margin {
     margin-bottom: 100px;
+}
+
+.scroll {
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+.scroll-team-padding {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* Menu Styles */
