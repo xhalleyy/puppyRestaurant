@@ -1,3 +1,12 @@
+@font-face {
+    font-family: fugazOne;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: montaukreg;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
 .bodybg {
     background-image: url(/assets/images/bgtexture.jpg);
 }
@@ -10,18 +19,21 @@
 .whitebg {
     background-color: white;
 }
-.catertext {
-    font-family: montauk-light;
+.caterbigtitle {
+    font-size: 50px;
+    font-family: fugazOne;
 }
 .catertitle {
-    font-size: 50px;
+    font-size: 30px;
+    font-family: fugazOne;
 }
 .catertext {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
+    font-family: montaukreg;
 }
 .caterpad {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 40px;
-    padding-right: 65px;
+    padding-right: 50px;
 }
