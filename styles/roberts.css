@@ -4,13 +4,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.heroimg{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 50%;
-}
+
+
 @font-face {
     font-family: fugaz-one;
     src: url(../assets/fonts/FugazOne-Regular.ttf);
@@ -19,4 +14,70 @@ body{
 @font-face {
     font-family: montauk-light;
     src: url(../assets/fonts/Montauk-Light.otf);
+}
+
+
+.photostxt{
+    font-size: 50px;
+}
+
+[class*="col-"]{
+    width:100%;
+    padding: 18 px;
+}
+
+.muzzletitle,
+.nav-link,
+.about-title,
+.about-title-res,
+.team-title,
+.abtcard-title,
+.offcanvas-title,
+.menu-title,
+.menu-type {
+    font-family: fugaz-one;
+}
+.muzzlesp,
+.muzzletitle,
+.nav-link,
+.about-title,
+.about-title-res,
+.about-text,
+.team-title,
+.abtcard-title,
+.team-text,
+.offcanvas-title,
+.menu-title,
+.menu-type,
+.menu-caption,
+.menu-item,
+footer {
+ color: #5F002B;   
+}
+
+.muzzlesp,
+.about-text,
+.team-text,
+.menu-caption,
+.menu-item,
+footer {
+    font-family: montauk-light;
+}
+
+
+.muzzlesp{
+    font-family: fugaz-one;
+}
+.muzzlesp{
+    color:#5F002B
+}
+
+.whiteBG3 {
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.sammy{
+    padding-left: 100px;
+    padding-top: 50px;
 }
