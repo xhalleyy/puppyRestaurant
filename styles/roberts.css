@@ -37,8 +37,10 @@ body{
 .menu-type {
     font-family: fugaz-one;
 }
-.muzzlesp,
-.muzzletitle,
+.muzzles-p,
+.muzzletitle{
+    color: #5F002B;
+}
 .nav-link,
 .about-title,
 .about-title-res,
@@ -64,12 +66,9 @@ footer {
     font-family: montauk-light;
 }
 
+.spaced{
+    padding-top: 6%;
 
-.muzzlesp{
-    font-family: fugaz-one;
-}
-.muzzlesp{
-    color:#5F002B
 }
 
 .whiteBG3 {
@@ -79,8 +78,15 @@ footer {
 }
 .sammy{
     padding-left: 100px;
-    padding-top: 50px;
+
 }
 
 
+.muzzlepara{
+    color: #5F002B;
+    font-family:  montauk-light ;
+}
 
+.imgspace{
+  
+}
