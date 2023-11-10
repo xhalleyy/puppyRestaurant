@@ -3,6 +3,7 @@
 - Group: Jared Ly, Robert Arias, Halley Pham
 - 11/9/23
 - Puppy Restaurant
+- Description: For mobile/tablet responsiveness, navbar becomes an off-canvas navbar; also there's a horizontal scroll, where some of the next images/cards are cut off so that it can be a bit intuitive that it's a scroll. 
 - Comments: Everything looks near perfect in the desktop format but there was a catering maine picture that was around 3 pixels too small and the photos borders radius is too round and a bit thin
 - tablet modes photos page could be more responsive, the about pages pictures being a slide scroll is cool and works great, mean while the main page is not responsive for either tablet or phone, other wise no further complaints, looks great
 - mobile looks great not much to add other then the photos looks better than the tablet and main is still not responsive
