@@ -260,3 +260,11 @@ body{
     padding-left: 30px;
     padding-right: 30px;
 }
+.muzzlepara{
+    color: #5F002B;
+    font-family:  montauk-light ;
+}
+.muzzletitle{
+    color:#5F002B;
+    font-family: fugaz-one;
+}
