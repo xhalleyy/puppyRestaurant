@@ -268,3 +268,7 @@ body{
     color:#5F002B;
     font-family: fugaz-one;
 }
+
+.imgBorder {
+    border: 10px solid white;
+}
